@@ -1,0 +1,50 @@
+Aufgabe 2
+
+(1)
+
+a)
+ 	ls bar || mkdir bar 
+b) 
+	ls bar && rmdir bar
+c)
+	sleep 5 ; date
+
+
+(2)
+
+a)
+	ls /usr/lib/lib[x,y,z]*    
+b) 
+	ls /usr/lib/ | grep -v [r,n] | wc -l
+c)
+	ls /usr/bin/ | grep pdf | wc -l
+d)
+	ls /usr/bin/t*t | wc -l
+e) 
+	ls /usr/bin/ | grep [2-5] | wc -l 
+
+
+(3)
+
+a)
+	echo {auf,ab}{fahren,gehen,geben,bauen,nehmen}
+b) 
+	echo {100..999}
+
+
+(4)
+
+a) 
+	echo $((2**9 + 3**4 - 5**5 + 2**5))
+b)
+	echo $(((424^ 124) + (6345/5)))
+c) 
+	echo $(((23*42)/(42^61)))
+d)
+	echo $(((2**15) > (3**10)))
+
+
+(5)
+
+a)
+	alias hallo="echo Hallo $(whoami)"
